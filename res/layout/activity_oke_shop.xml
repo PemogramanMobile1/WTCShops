@@ -1,0 +1,78 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.wtcelectronikshops.OkeShopActivity" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="OkeShop\n"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:src="@drawable/okshop2" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="\n Tentang Kami\n"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="PT Trikomsel Oke Tbk. (Perseroan), didirikan di Jakarta pada tanggal 7 Oktober 1996 dengan nama PT Trikomsel Citrawahana. Pada tahun 2000, PT Trikomsel Citrawahana berubah nama menjadi PT Trikomsel Multimedia dan terakhir pada tahun 2007 menjadi PT Trikomsel Oke. \n\n
+Perseroan merupakan perusahaan penyedia produk dan layanan telekomunikasi seluler ternama di Indonesia. Aktivitas usaha Perseroan dilakukan melalui jalur distribusi dan ritel dengan tujuan mewujudkan visi Perseroan : Memberikan Kepuasan Meraih Kepercayaan serta misi Perseroan : Memberikan kepuasan dan meraih kepercayaan konsumen yang memiliki gaya hidup komunikasi berbeda-beda dan tersebar di mana-mana dengan sumber daya manusia yang unggul, produk dan layanan yang tepat serta didukung oleh sistem informasi dan operasional yang handal. \n\n
+Pada sisi kegiatan usaha distribusi, Perseroan bekerjasama dengan para peritel independen (dealer) yang memiliki satu atau beberapa gerai dalam jumlah yang relatif kecil. Hingga akhir 2010, jumlah dealer dan pusat distribusi Perseroan masing-masing sebanyak 11.892 dealer aktif dan 108 pusat distribusi. \n\n
+Perseroan memiliki jaringan ritel dengan cakupan yang luas meliputi seluruh wilayah Indonesia yang didukung dengan infrastruktur yang terus berkembang. Jaringan ritel tersebut direpresentasikan dalam bentuk gerai ritel dengan nama OkeShop.\n\n
+" />
+
+            <Button
+                android:id="@+id/button1"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="openProduk1"
+                android:text="Produk" />
+
+            <Button
+                android:id="@+id/button2"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="openLokasi"
+                android:text="Lokasi Toko" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

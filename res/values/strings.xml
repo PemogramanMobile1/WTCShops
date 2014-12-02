@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WTC Electronik Shops</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_eraphone">eraphone</string>
+    <string name="title_activity_erafone">erafone</string>
+    <string name="title_activity_produk">Semua Produk</string>
+    <string name="title_activity_store">Outlet Erafone</string>
+    <string name="title_activity_oke_shop">OkeShop</string>
+    <string name="title_activity_produk1">Produk</string>
+    <string name="title_activity_store1">Lokasi Toko</string>
+    <string name="title_activity_samsung">Samsung</string>
+    <string name="title_activity_produk2">Produk</string>
+    <string name="title_activity_store2">Store Outlet</string>
+    <string name="title_activity_about">About WTC Electronik Shops</string>
+
+</resources>

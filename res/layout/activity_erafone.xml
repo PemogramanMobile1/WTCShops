@@ -1,0 +1,82 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.wtcelectronikshops.ErafoneActivity" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="Erafone"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="\n" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/eraphonestore" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="\nTentang Kami"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="\nSaat ini Erafone menyediakan berbagai produk Ponsel dan Tablet dari berbagai Brand ternama seperti Nokia, Blackberry,  Samsung, Apple, Sony Ericsson, Motorola, LG, Dell, Huawei, Acer serta Venera yang merupakan Brand Lokal ternama. Erafone juga menjual berbagai pilihan produk operator dan aksesories.\n\nKerjasama dengan Korporasi Besar, diantaranya adalah Astra-Honda Motor, Coca Cola, Indomaret, Toyota-Astra Motor, Adira Finance, Federal International Finance, Sosro, Telkomsel,  Indosat, XL,  bank-bank papan atas seperti Citibank, Bank Mandiri, BCA, BRI, BNI, Bank Mega, OCBC-NISP, Bank Niaga, menjadikan bukti bahwa  Erafone adalah MITRA TERPERCAYA. Semua ini menjadi pendukung utama demi mewujudkan visi dan misi Erafone menjadi Best Handphone Online Store di Indonesia.\n\n" />
+
+            <Button
+                android:id="@+id/button1"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:onClick="openProduk"
+                android:text="Produk" />
+
+            <Button
+                android:id="@+id/button2"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:onClick="openStore"
+                android:text="Store Outlets" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
